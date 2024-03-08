@@ -2,124 +2,231 @@
 /*     over 368px     */
 /**********************/
 @media only screen and (min-width: 23em) {
-  /* SECTION 1 BEGIN*/
+    /* SECTION 1 BEGIN*/
 
-  /* SECTION 1 END*/
-  /* ******************* */
-  /* SECTION 2 BEGIN*/
+    /* SECTION 1 END*/
+    /* ******************* */
+    /* SECTION 2 BEGIN*/
 
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
+    /* SECTION 2 END*/
+    /* ******************* */
+    /* SECTION 3 BEGIN*/
 
-  /* SECTION 3 END*/
-  /* ******************* */
-  /* SECTION 4 BEGIN*/
+    /* SECTION 3 END*/
+    /* ******************* */
+    /* SECTION 4 BEGIN*/
 
-  /* SECTION 4 END*/
+    /* SECTION 4 END*/
 }
 
 /**********************/
 /*     over 480px     */
 /**********************/
 @media only screen and (min-width: 30em) {
-  /* SECTION 1 BEGIN*/
+    /* SECTION 1 BEGIN*/
+    /* .section-1 {
+        min-height: 100vh;
+    }
 
-  /* SECTION 1 END*/
-  /* ******************* */
-  /* SECTION 2 BEGIN*/
+    .section1__wrapper {
+        width: calc(min(1200px, 90vw));
+        margin-inline: auto;
+        padding: 2em 0;
+    }
 
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
+    .header-wrapper .logo-image {
+        width: 150px;
+    }
 
-  /* SECTION 3 END*/
-  /* ******************* */
-  /* SECTION 4 BEGIN*/
+    .hero {
+        display: flex;
+        align-items: center;
+        gap: 3em;
+        padding-top: 3em;
+    }
 
-  /* SECTION 4 END*/
+    .image-side img {
+        width: 100%;
+    }
+
+    .header-wrapper .header-link {
+        padding: 0.75em 4em;
+    }
+
+    .text-side {
+        max-width: 500px;
+        padding: 0;
+    }
+
+    .text-side .text-head {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .text-side .text-desc {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .image-side {
+        padding: 0;
+    }
+
+    .cta {
+        padding: 1em 4em;
+    } */
+
+    /* SECTION 1 END*/
+    /* ******************* */
+    /* SECTION 2 BEGIN*/
+
+    /* SECTION 2 END*/
+    /* ******************* */
+    /* SECTION 3 BEGIN*/
+
+    /* SECTION 3 END*/
+    /* ******************* */
+    /* SECTION 4 BEGIN*/
+
+    /* SECTION 4 END*/
 }
 
 /**********************/
 /*     over 640px     */
 /**********************/
 @media only screen and (min-width: 40em) {
-  /* SECTION 1 BEGIN*/
+    /* SECTION 1 BEGIN*/
 
-  /* SECTION 1 END*/
-  /* ******************* */
-  /* SECTION 2 BEGIN*/
+    .section-1 {
+        min-height: 100vh;
+    }
 
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
+    .section1__wrapper {
+        width: calc(min(1200px, 90vw));
+        margin-inline: auto;
+        padding: 2em 0;
+    }
 
-  /* SECTION 3 END*/
-  /* ******************* */
-  /* SECTION 4 BEGIN*/
+    .header-wrapper .logo-image {
+        width: 150px;
+    }
 
-  /* SECTION 4 END*/
+    .hero {
+        display: flex;
+        align-items: center;
+        gap: 3em;
+        padding-top: 3em;
+    }
+
+    .image-side img {
+        width: 100%;
+    }
+
+    .header-wrapper .header-link {
+        padding: 0.75em 4em;
+    }
+
+    .text-side {
+        max-width: 500px;
+        padding: 0;
+    }
+
+    .text-side .text-head {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .text-side .text-desc {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .image-side {
+        padding: 0;
+    }
+
+    .cta-box {
+    text-align: left;
+}
+
+    .cta {
+        padding: 1em 4em;
+    }
+
+    /* SECTION 1 END*/
+    /* ******************* */
+    /* SECTION 2 BEGIN*/
+
+    /* SECTION 2 END*/
+    /* ******************* */
+    /* SECTION 3 BEGIN*/
+
+    /* SECTION 3 END*/
+    /* ******************* */
+    /* SECTION 4 BEGIN*/
+
+    /* SECTION 4 END*/
 }
 
 /**********************/
 /*     over 800px     */
 /**********************/
 @media only screen and (min-width: 50em) {
-  /* SECTION 1 BEGIN*/
+    /* SECTION 1 BEGIN*/
 
-  /* SECTION 1 END*/
-  /* ******************* */
-  /* SECTION 2 BEGIN*/
+    /* SECTION 1 END*/
+    /* ******************* */
+    /* SECTION 2 BEGIN*/
 
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
+    /* SECTION 2 END*/
+    /* ******************* */
+    /* SECTION 3 BEGIN*/
 
-  /* SECTION 3 END*/
-  /* ******************* */
-  /* SECTION 4 BEGIN*/
+    /* SECTION 3 END*/
+    /* ******************* */
+    /* SECTION 4 BEGIN*/
 
-  /* SECTION 4 END*/
+    /* SECTION 4 END*/
 }
 
 /**********************/
 /*     over 960px     */
 /**********************/
 @media only screen and (min-width: 60em) {
-  /* SECTION 1 BEGIN*/
+    /* SECTION 1 BEGIN*/
 
-  /* SECTION 1 END*/
-  /* ******************* */
-  /* SECTION 2 BEGIN*/
+    /* SECTION 1 END*/
+    /* ******************* */
+    /* SECTION 2 BEGIN*/
 
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
+    /* SECTION 2 END*/
+    /* ******************* */
+    /* SECTION 3 BEGIN*/
 
-  /* SECTION 3 END*/
-  /* ******************* */
-  /* SECTION 4 BEGIN*/
+    /* SECTION 3 END*/
+    /* ******************* */
+    /* SECTION 4 BEGIN*/
 
-  /* SECTION 4 END*/
+    /* SECTION 4 END*/
 }
 
 /***********************/
 /*     over 1120px     */
 /***********************/
 @media only screen and (min-width: 70em) {
-  /* SECTION 1 BEGIN*/
+    /* SECTION 1 BEGIN*/
 
-  /* SECTION 1 END*/
-  /* ******************* */
-  /* SECTION 2 BEGIN*/
+    /* SECTION 1 END*/
+    /* ******************* */
+    /* SECTION 2 BEGIN*/
 
-  /* SECTION 2 END*/
-  /* ******************* */
-  /* SECTION 3 BEGIN*/
+    /* SECTION 2 END*/
+    /* ******************* */
+    /* SECTION 3 BEGIN*/
 
-  /* SECTION 3 END*/
-  /* ******************* */
-  /* SECTION 4 BEGIN*/
+    /* SECTION 3 END*/
+    /* ******************* */
+    /* SECTION 4 BEGIN*/
 
-  /* SECTION 4 END*/
+    /* SECTION 4 END*/
 }
