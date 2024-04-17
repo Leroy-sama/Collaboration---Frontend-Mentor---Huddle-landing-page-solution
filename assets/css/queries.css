@@ -147,24 +147,28 @@
   /* SECTION 2 BEGIN*/
 
   .call-to-action {
-    width: 60vw;
-    height: 18vw;
+    padding: 2em;
+    max-width: 700px;
+    bottom: -3.5em;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .call-to-action h2 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    padding: 0.5em 0;
   }
 
   .call-to-action button {
-    width: 35vw;
-    height: 6vw;
     font-size: 1rem;
     box-shadow: -4px 4px var(--shadow);
+    padding: 1em 4em;
   }
 
   .section-two {
     max-width: 1200px;
     margin-inline: auto;
+    padding: 4em 0 14em;
   }
   /* SECTION 2 END*/
   /* ******************* */
@@ -190,12 +194,6 @@
   /* SECTION 1 END*/
   /* ******************* */
   /* SECTION 2 BEGIN*/
-
-  .section-two-grid {
-    /* padding: 0 2rem; */
-    display: grid;
-    gap: 2em;
-  }
 
   .section-two article {
     text-align: left;
@@ -275,8 +273,6 @@
   /* SECTION 2 BEGIN*/
 
   .call-to-action button {
-    width: 35vw;
-    height: 4vw;
     font-size: 1rem;
     box-shadow: -4px 4px var(--shadow);
   }
