@@ -134,7 +134,14 @@ header .header-wrapper {
 /* SECTION 2 BEGIN*/
 
 .section-two {
-  margin: 8rem auto;
+  padding: 2em 0 14em;
+  position: relative;
+}
+
+.section-two-grid {
+  display: grid;
+  gap: 2em;
+  margin: 0 1.5em;
 }
 
 .section-two article {
@@ -145,7 +152,6 @@ header .header-wrapper {
 
   display: flex;
   flex-direction: column;
-  /* margin: 2rem; */
 }
 
 .section-two article section {
@@ -169,34 +175,47 @@ header .header-wrapper {
   color: var(--grayish-blue);
 }
 
+.ctvbox {
+  display: flex;
+  justify-content: center;
+}
+
 .call-to-action {
-  width: 84vw;
-  height: 20vw;
-  margin: 0 auto;
+  margin: 0 1em;
+  position: absolute;
+  bottom: -3em;
+
+  padding: 2em 1em;
   background: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
   font-family: 'Poppins', sans-serif;
   border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
 .call-to-action h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--very-dark-cyan);
 }
 
 .call-to-action button {
-  width: 50vw;
-  height: 8vw;
-  margin: 0 auto;
-  border: none;
-  border-radius: 50px;
-  background: var(--pink);
+  padding: 1em 3em;
+  font-size: 0.8rem;
+  background-color: var(--pink);
   color: var(--white);
-  font-size: 0.9rem;
+  border: none;
+  border-radius: 35px;
+  font-weight: 500;
+  cursor: pointer;
   box-shadow: -3px 3px var(--shadow);
 }
+
 .call-to-action button:hover,
 .call-to-action button:active {
   opacity: 85%;
@@ -210,7 +229,7 @@ header .header-wrapper {
 footer {
   background-color: var(--very-dark-cyan);
   color: var(--white);
-  padding: calc((50 / 16) * 1rem) calc((20 / 16) * 1rem);
+  padding: calc((120 / 16) * 1rem) calc((20 / 16) * 1rem) calc((50 / 16) * 1rem);
 }
 
 .footer-container > img {
