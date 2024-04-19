@@ -284,6 +284,7 @@
 
   footer {
     padding: calc((100 / 16) * 1rem);
+    padding-top: calc((140 / 16) * 1rem);
   }
 
   .footer-container {

@@ -230,7 +230,7 @@ header .header-wrapper {
 footer {
   background-color: var(--very-dark-cyan);
   color: var(--white);
-  padding: calc((120 / 16) * 1rem) calc((20 / 16) * 1rem) calc((50 / 16) * 1rem);
+  padding: calc((140 / 16) * 1rem) calc((20 / 16) * 1rem) calc((50 / 16) * 1rem);
 }
 
 .footer-container > img {
