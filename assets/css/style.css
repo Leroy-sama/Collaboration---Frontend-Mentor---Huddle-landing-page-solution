@@ -85,6 +85,7 @@ header .header-wrapper {
 .header-link,
 .cta {
   font-size: 0.9rem;
+  padding: 4rem;
 }
 
 .text-head {
