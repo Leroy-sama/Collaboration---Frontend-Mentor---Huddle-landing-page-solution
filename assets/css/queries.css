@@ -163,7 +163,8 @@
     text-align: left;
   }
 
-  .cta {
+  .text-side .cta {
+    margin: 0;
     padding: 1em 4em;
   }
 

@@ -60,6 +60,7 @@ header .header-wrapper {
   justify-content: space-between;
   align-items: center;
   /* padding: 2em 0; */
+  gap: 1rem;
 }
 
 .header-wrapper .logo-image {
@@ -75,6 +76,7 @@ header .header-wrapper {
   padding: 0.5em 2.5em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 25px;
+  display: block;
 }
 
 .header-wrapper .header-link:hover {
@@ -111,6 +113,8 @@ header .header-wrapper {
 }
 
 .text-side .cta {
+  max-width: 17rem;
+  margin: 0 auto;
   text-decoration: none;
   color: var(--white);
   background-color: var(--pink);
@@ -119,6 +123,7 @@ header .header-wrapper {
   font-size: 0.9rem;
   font-weight: 700;
   text-align: center;
+  display: block;
 }
 
 .text-side .cta:hover {
