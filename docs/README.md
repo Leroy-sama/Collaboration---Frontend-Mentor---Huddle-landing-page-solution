@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/collaboration-huddle-landing-page-NOCqLtEAX2](https://www.frontendmentor.io/solutions/collaboration-huddle-landing-page-NOCqLtEAX2)
 - Live Site URL: [https://wonderful-cranachan-afb020.netlify.app/](https://wonderful-cranachan-afb020.netlify.app/)
 
 ## Process
